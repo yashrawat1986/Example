@@ -8,9 +8,9 @@
 
    
 
-      <script src="cordova.js"></script>    
-      <script src="SQLitePlugin.js"></script>
-       <script src="jquery-1.8.2.min.js"></script>
+      <script src="js/cordova.js"></script>    
+      <script src="js/SQLitePlugin.js"></script>
+       <script src="js/jquery-1.8.2.min.js"></script>
 
   <!--  <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/SQLitePlugin.js"></script>
@@ -46,6 +46,7 @@
                     });
 
                 }, function (e) {
+                    alert(e.message);
                     console.log("ERROR: " + e.message);
                 });
             });
@@ -65,6 +66,6 @@
 
       <!--<br>
 <span style="font-weight:bold;">Currently stored values:</span>
-<span id="lbUsers"></span>-->-->
+<span id="lbUsers"></span>-->
   </body>
 </html>
